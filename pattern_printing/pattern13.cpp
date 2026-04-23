@@ -1,23 +1,20 @@
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
 
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
 int main(){
-    for(int i=0;i<5;i++){
-        for(int j=0;j<5-i-1;j++){
-            cout<<" ";
+    int n=4,c=1;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<c<<" ";
+            c++;
         }
-        for(int j=0;j<2*i+1;j++){
-            cout<<"*";
-        }
-        for(int j=0;j<5-i-1;j++){
-            cout<<" ";
-        }
-        cout<<endl;
+    cout<<endl;
     }
+    return 0;
 }
