@@ -14,6 +14,10 @@ int main(){
     }
     cout<<endl;
 
+    // Updating element
+    um[4]=400;
+    cout<<um[4]<<endl;
+
     // Finding an element
     auto f=um.find(4);
     if(f!=um.end()){
